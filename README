@@ -1,0 +1,12 @@
+基因演算法
+
+ga(基因個數, 染色體族群數, 演化世代數);
+
+memalloc(*sizeof()):
+	染色體陣列 chromosome[POPULATION][GENE]
+
+ga_init();
+ga_selection();
+ga_crossover();
+ga_mutation();
+ga_sort();
